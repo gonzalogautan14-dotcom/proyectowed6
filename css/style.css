@@ -1,0 +1,49 @@
+/* ESTILOS GENERALES */
+
+body {
+    background-color: #D9E2EC;
+    color: #243B53;
+    font-family: 'Inder', sans-serif;
+}
+
+/* TITULO PRINCIPAL */
+
+h1 {
+    color: #243B53;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* PARRAFOS */
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu {
+    background-color: #243B53;
+    padding: 15px;
+}
+
+.menu-lista {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-enlace {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+/* COLOR DE ACENTO */
+
+.menu-enlace:hover {
+    color: #F0A202;
+}
